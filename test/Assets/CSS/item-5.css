@@ -1,0 +1,54 @@
+.item-5 {
+    margin-top: 15rem;
+    display: flex;
+    column-gap: 13rem;
+}
+
+.content {
+    width: 366px;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content p {
+    opacity: .7;
+    padding-bottom: 1rem;
+}
+
+.date {
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.lee-img img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
+
+.lee-content {
+    display: flex;
+    gap: 1rem;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+.description h3 {
+    font-weight: 500;
+}
+
+.description p {
+    font-size: .9rem;
+}
+
+.lee-watch img {
+    height: 450px;
+    width: 450px;
+    box-shadow: 85px -85px 0 #ffb566;
+}
+

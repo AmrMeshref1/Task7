@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.item-2 {
+    margin-top: 8rem;
+    font-family: Roboto;
+}
+
+.featured {
+    margin-bottom: 8rem;
+    text-align: center;
+}
+
+.featured-line {
+    position: relative;
+} 
+
+.featured-line h2 {
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.featured-line h2::after {
+    content: "";
+    position: absolute;
+    width: 67px;
+    height: 1px;
+    top: -1rem;
+    right: 30rem;
+    background-color: #ffb566;
+}
+
+.imgs_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 312px;
+    height: 329.2px;
+    margin: 0 10px;
+    padding-top: 2.5rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    overflow: hidden;
+    transition: .7s;
+}
+
+.ticket {
+    position: absolute;
+    color:white;
+    background-color: #ffb566;
+    padding: 8px 16px;
+    top: 3rem;
+    left: -1.07rem;
+    transform: rotate(-90deg);
+}
+
+.imgs_container img {
+    width: 139px;
+    height: 214px;
+    object-fit: contain;
+    margin-bottom: 1.2rem;
+}
+
+.imgs_container h4 {
+    margin-bottom: 1rem;
+}
+
+.imgs_container p {
+    color: #ffb566;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.imgs_main {
+    display: flex;
+    justify-content: center;
+}
+
+.imgs_container button {
+    border: none;
+    outline: none;
+    background-color: #2b2b2b;
+    color: white;
+    padding: 1rem 1.7rem;
+    font-weight: 700;
+    margin: 1.5rem 0 3rem 0;
+}
+
+.imgs_container:hover {
+    height: 465px;
+    box-shadow: 0 14px 39px rgb(107, 104, 104, .5);
+}
+
+.imgs_container button:hover {
+    cursor: pointer;
+    background-color: #363636;
+}
