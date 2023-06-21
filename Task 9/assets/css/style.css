@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.vid_main{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.vid_container .vid {
+    width: 100%;
+}
+
+.vid_container::after {
+    content: "";
+    position: absolute;
+    background-color: #2a5555;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .7;
+}
+
+
+.text {
+    width: 65%;
+    transform: skewX(-9deg);
+    transform-origin: top right;
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.text_container {
+    top: 15rem;
+    left: 12rem;
+}
+
+.text_container h1 {
+    font-family: Tinos;
+    font-size: 3.5rem;
+}
+
+.text_container_bottom button {
+    font-weight: bold;
+    background-color: #1d3b3b;
+}
+
+.icon_container {
+    top: 15rem  ;
+    right: 0;
+    z-index: 9;
+}
+
+.icon_container .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+}
+
+.icon_container .icon:hover {
+    cursor: pointer;
+    background-color: #262626;
+}
+
+.icon i {
+    color: white;
+}
