@@ -12,6 +12,8 @@
 
 .vid_container .vid {
     width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }
 
 .vid_container::after {
@@ -71,4 +73,73 @@
 
 .icon i {
     color: white;
+}
+
+@media screen and (max-width:1024px) {
+    .text {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .text {
+        width: 100%;
+        transform: none;
+        height: 50%;
+    }
+
+    .text_container {
+        top : 5rem;
+        transform: translate(-50px , -50px);
+    }
+
+    .text_container h1 {
+        font-size: 2.5rem;
+    }
+
+    .break {
+        display: none;
+    }
+    
+    .text_container_bottom input {
+        width: 65%
+    }
+
+    .icon_container{
+        flex-direction: row !important;
+        top: 22rem;
+        right: 50%;
+        transform: translate(50% , 0);
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .text {
+        height: 75%;
+    }
+
+    .text_container {
+        width: 100%;
+        left: 4rem;
+        margin-top: 3rem;
+    }
+    
+    .text_container_bottom {
+        display: flex;
+    }
+
+    .mail{
+        padding: 1rem 0 1rem 1rem !important;
+    }
+
+    .btn {
+        padding: 1rem 1rem !important;
+        font-size: small;
+        margin-left: 1rem !important;
+    }
+    
+    .icon_container {
+        top: 32rem;
+    }
 }
